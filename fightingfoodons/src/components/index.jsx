@@ -5,3 +5,4 @@ export * from './GamesPage';
 export * from './Header';
 export * from './HomePage';
 export * from './MangaPage';
+export * from './PageNotFound';

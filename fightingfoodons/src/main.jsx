@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { AnimePage, CharactersPage, Footer, GamesPage, Header, HomePage, MangaPage } from './components';
+import { AnimePage, CharactersPage, Footer, GamesPage, Header, HomePage, MangaPage, PageNotFound } from './components';
 import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,7 +17,7 @@ root.render(
       <Route path="/manga" element={<MangaPage />} />
       <Route path="/games" element={<GamesPage />} />
 
-      {/* <Route path="/*" element={<PageNotFound />} /> */}
+      <Route path="/*" element={<PageNotFound />} />
 
     </Routes>
   </BrowserRouter>
