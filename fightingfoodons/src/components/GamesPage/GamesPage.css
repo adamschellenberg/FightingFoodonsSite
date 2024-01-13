@@ -1,0 +1,18 @@
+.boxArtImg {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.wasmBoyContainer {
+    text-align: center;
+}
+
+.wasmBoyCanvas {
+    width: 320px;
+    height: 288px;
+    background-color: #333;
+}
+
+.wasmBoyPlayButton {
+    margin: 25px;
+}

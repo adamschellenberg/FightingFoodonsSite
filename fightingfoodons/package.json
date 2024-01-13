@@ -15,7 +15,9 @@
     "react-bootstrap": "^2.9.2",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.1",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "responsive-gamepad": "^1.2.1",
+    "wasmboy": "^0.7.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

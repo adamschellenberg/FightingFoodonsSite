@@ -6,7 +6,7 @@ import './MangaPage.css';
 export const MangaPage = () => {
     const [mangaData, setMangaData] = useState([]);
 
-    const getMangaData= async () => {
+    const getMangaData = async () => {
         const result = await getDataFromServer.getMangaDataFromServer();
         setMangaData(result);
     }

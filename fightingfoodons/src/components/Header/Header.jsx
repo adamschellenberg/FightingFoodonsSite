@@ -22,9 +22,9 @@ export const Header = () => {
                             <Nav.Item>
                                 <Nav.Link href="/games">Games</Nav.Link>
                             </Nav.Item>
-                            <Nav.Item>
+                            {/* <Nav.Item>
                                 <Nav.Link href="/characters">Characters</Nav.Link>
-                            </Nav.Item>
+                            </Nav.Item> */}
                         </Nav>
                     </Navbar.Collapse>
             </Navbar>
