@@ -5,7 +5,8 @@
     "chapterTitleJapanese": "ビストロの世界へ ようこそ!!",
     "chapterTitleEnglish": "Welcome to the World of Fighting Foodons!!",
     "numberOfPages": 5,
-    "chapterSummary": "coming soon"
+    "chapterSummary": "coming soon",
+    "available": true
   },
   {
     "id": 1,
@@ -13,7 +14,8 @@
     "chapterTitleJapanese": "いでよフードン!! めざせ最強ビストラー",
     "chapterTitleEnglish": "Come On, Foodon!! Aim to Be the Strongest Chef",
     "numberOfPages": 31,
-    "chapterSummary": "coming soon"
+    "chapterSummary": "coming soon",
+    "available": false
   },
   {
     "id": 2,
@@ -21,7 +23,8 @@
     "chapterTitleJapanese": "敵か味方か!? 新たなビストラー",
     "chapterTitleEnglish": "Enemy or Ally!? The New Chef",
     "numberOfPages": 30,
-    "chapterSummary": "coming soon"
+    "chapterSummary": "coming soon",
+    "available": false
   },
   {
     "id": 3,
@@ -29,7 +32,8 @@
     "chapterTitleJapanese": "気合いで勝ち抜け! バトルトーナメント",
     "chapterTitleEnglish": "Win With Spirit! Battle Tournament",
     "numberOfPages": 32,
-    "chapterSummary": "coming soon"
+    "chapterSummary": "coming soon",
+    "available": false
   },
   {
     "id": 4,
@@ -37,7 +41,8 @@
     "chapterTitleJapanese": "はじめての敗北! ワールなアイツはスゴいヤツ!?",
     "chapterTitleEnglish": "First Defeat! That Whirl Guy Is Amazing!?",
     "numberOfPages": 32,
-    "chapterSummary": "coming soon"
+    "chapterSummary": "coming soon",
+    "available": false
   },
   {
     "id": 5,
@@ -45,7 +50,8 @@
     "chapterTitleJapanese": "秘めたるカをよびおこせ! 究極攻撃三味一体!!",
     "chapterTitleEnglish": "Awaken Your Hidden Power! Ultimate Three Flavors Attack!!",
     "numberOfPages": 32,
-    "chapterSummary": "coming soon"
+    "chapterSummary": "coming soon",
+    "available": false
   },
   {
     "id": 6,
@@ -53,7 +59,8 @@
     "chapterTitleJapanese": "急襲！グルメ四天王",
     "chapterTitleEnglish": "Surprise Attack!! Gourmet Elite Four",
     "numberOfPages": 35,
-    "chapterSummary": "coming soon"
+    "chapterSummary": "coming soon",
+    "available": false
   },
   {
     "id": 7,
@@ -61,7 +68,8 @@
     "chapterTitleJapanese": "真の料理人へ 新たな試練",
     "chapterTitleEnglish": "A New Challenge For True Chefs",
     "numberOfPages": 34,
-    "chapterSummary": "coming soon"
+    "chapterSummary": "coming soon",
+    "available": false
   },
   {
     "id": 8,
@@ -69,7 +77,8 @@
     "chapterTitleJapanese": "強く,優しく,たくましく! 力レー大勝負!",
     "chapterTitleEnglish": "Be Strong, Kind, and Tough! Power Race Battle!",
     "numberOfPages": 35,
-    "chapterSummary": "coming soon"
+    "chapterSummary": "coming soon",
+    "available": false
   },
   {
     "id": 9,
@@ -77,7 +86,8 @@
     "chapterTitleJapanese": "最大の敵は自分? ゼン最大のピンチ!!",
     "chapterTitleEnglish": "Am I My Worst Enemy? Zen's Biggest Crisis!!",
     "numberOfPages": 37,
-    "chapterSummary": "coming soon"
+    "chapterSummary": "coming soon",
+    "available": false
   },
   {
     "id": 10,
@@ -85,7 +95,8 @@
     "chapterTitleJapanese": "救世主隆臨? 究極のラーメン勝負だー!!",
     "chapterTitleEnglish": "The Coming of a Savior? The Ultimate Ramen Battle!!",
     "numberOfPages": 36,
-    "chapterSummary": "coming soon"
+    "chapterSummary": "coming soon",
+    "available": false
   },
   {
     "id": 11,
@@ -93,7 +104,8 @@
     "chapterTitleJapanese": "真心をキ三に ゼン奇跡のラーメン",
     "chapterTitleEnglish": "Zen's Miraculous Ramen With Sincerity and Dedication",
     "numberOfPages": 36,
-    "chapterSummary": "coming soon"
+    "chapterSummary": "coming soon",
+    "available": false
   },
   {
     "id": 12,
@@ -101,7 +113,8 @@
     "chapterTitleJapanese": "子供に夢を! ピータン大活躍",
     "chapterTitleEnglish": "A Child's Dream! Pi-tan's Great Success",
     "numberOfPages": 32,
-    "chapterSummary": "coming soon"
+    "chapterSummary": "coming soon",
+    "available": false
   },
   {
     "id": 13,
@@ -109,6 +122,7 @@
     "chapterTitleJapanese": "決戦四天王!? ゼン新たなる旅",
     "chapterTitleEnglish": "Decisive Battle of the Gourmet Elite Four!? Zen's New Journey",
     "numberOfPages": 29,
-    "chapterSummary": "coming soon"
+    "chapterSummary": "coming soon",
+    "available": false
   }
 ]

@@ -30,6 +30,31 @@ export const MangaPage = () => {
         })
     }
 
+    const renderMangaReader = (isAvailable, chapterNumber, numberOfPages) => {
+        if (isAvailable) {
+            return (
+                <div>
+                    <Button onClick={() => handleOpenMangaReader({chapterNumber})} variant="warning">Read Chapter</Button>
+                    <MangaReader
+                        id={chapterNumber}
+                        chapterNumber={chapterNumber}
+                        numberOfPages={numberOfPages}
+                        justClicked={showMangaReader.justClicked}
+                        show={showMangaReader.openReader}
+                        close={() => handleCloseMangaReader({chapterNumber})}
+                    />
+                </div>
+            )
+        }
+        else {
+            return(
+                <div>
+                    <Button variant="secondary">Chapter Coming Soon!</Button>
+                </div>
+            )
+        }
+    }
+
     useEffect( () => {
         getMangaData();
     }, []);
@@ -46,6 +71,7 @@ export const MangaPage = () => {
                             let chapterTitleEnglish = chapter.chapterTitleEnglish;
                             let chapterSummary = chapter.chapterSummary;
                             let numberOfPages = chapter.numberOfPages;
+                            let isAvailable = chapter.available;
 
 
                             return (
@@ -55,15 +81,7 @@ export const MangaPage = () => {
                                         <p>Summary: {chapterSummary}</p>
                                     </div>
 
-                                    <Button onClick={() => handleOpenMangaReader({chapterNumber})}>Read Manga</Button>
-                                    <MangaReader
-                                        id={chapterNumber}
-                                        chapterNumber={chapterNumber}
-                                        numberOfPages={numberOfPages}
-                                        justClicked={showMangaReader.justClicked}
-                                        show={showMangaReader.openReader}
-                                        close={() => handleCloseMangaReader({chapterNumber})}
-                                        />
+                                    {renderMangaReader(isAvailable, chapterNumber, numberOfPages)}
 
                                     <hr />
                                 </div>

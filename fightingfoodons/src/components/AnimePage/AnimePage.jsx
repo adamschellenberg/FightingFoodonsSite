@@ -34,6 +34,7 @@ export const AnimePage = () => {
                                     <br />
                                     <span><a href={episodeLink} target="_blank" rel="noreferrer">Watch on Pluto</a></span>
                                     </p>
+                                    <hr />
                                 </div>
                             )
                         })

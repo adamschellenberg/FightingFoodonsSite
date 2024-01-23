@@ -1,6 +1,29 @@
+/* 80% for tablet portrait, 50% for desktop and tablet landscape, 100% on phone */
 .mangaReaderModal {
-    max-width: 40%!important;
+    max-width: 100%!important;
 }
+
+/* tablet portait */
+@media only screen and (min-width: 600px) {
+    .mangaReaderModal {
+        max-width: 80%!important;
+    }
+}
+
+/* tablet landscape */
+@media only screen and (min-width: 768px) {
+    .mangaReaderModal {
+        max-width: 50%!important;
+    }
+}
+
+/* desktop and laptop */
+@media only screen and (min-width: 1050px) {
+    .mangaReaderModal {
+        max-width: 40%!important;
+    }
+}
+
 
 .mangaPageImage {
     width: 100%;

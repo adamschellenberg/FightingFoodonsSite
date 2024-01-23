@@ -8,11 +8,11 @@ export const Header = () => {
 
     return (
         <div className="header">
-            <Navbar fixed="top" expand="lg" bg="dark" variant="dark">
-                    <Navbar.Brand href="/">Fighting Foodons logo</Navbar.Brand>
+            <Navbar fixed="top" expand="lg" bg="dark" data-bs-theme="dark">
+                    <Navbar.Brand href="/" className="mx-3">Fighting Foodons logo</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-                        <Nav>
+                        <Nav className="mx-5">
                             <Nav.Item>
                                 <Nav.Link href="/manga">Manga</Nav.Link>
                             </Nav.Item>

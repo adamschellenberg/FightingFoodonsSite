@@ -13,9 +13,9 @@ export const MangaReader = (props) => {
         let pageNumber = i;
         let imagePath = "db/manga/chapters/ch" + chapterNumber + "/ch" + chapterNumber + "-p" + pageNumber + ".jpg";
         mangaChapterPages.push(
-            <>
-            <img src={imagePath} className="mangaPageImage" key={pageNumber}/> <br />
-            </>
+            <div key={pageNumber}>
+            <img src={imagePath} className="mangaPageImage"/> <br />
+            </div>
         )
     }
 
@@ -28,11 +28,14 @@ export const MangaReader = (props) => {
             dialogClassName="mangaReaderModal"
             >
         <Modal.Header closeButton>
-          <Modal.Title>Chapter #{props.chapterNumber}</Modal.Title>
+          <Modal.Title>Chapter# {props.chapterNumber}</Modal.Title>
         </Modal.Header>
         <Modal.Body>{mangaChapterPages}
         </Modal.Body>
         <Modal.Footer>
+            <Button variant="primary" onClick={props.close}>
+            Close
+          </Button>
         </Modal.Footer>
       </Modal>
     </div>
