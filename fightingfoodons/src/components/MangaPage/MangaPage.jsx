@@ -30,15 +30,16 @@ export const MangaPage = () => {
         })
     }
 
-    const renderMangaReader = (isAvailable, chapterNumber, numberOfPages) => {
+    const renderMangaReader = (isAvailable, language, chapterNumber, numberOfPages) => {
         if (isAvailable) {
             return (
                 <div>
-                    <Button onClick={() => handleOpenMangaReader({chapterNumber})} variant="warning">Read Chapter</Button>
+                    <Button onClick={() => handleOpenMangaReader({chapterNumber})} variant="warning">Read {language} Chapter</Button>
                     <MangaReader
                         id={chapterNumber}
                         chapterNumber={chapterNumber}
                         numberOfPages={numberOfPages}
+                        language={language}
                         justClicked={showMangaReader.justClicked}
                         show={showMangaReader.openReader}
                         close={() => handleCloseMangaReader({chapterNumber})}
@@ -49,7 +50,7 @@ export const MangaPage = () => {
         else {
             return(
                 <div>
-                    <Button variant="secondary">Chapter Coming Soon!</Button>
+                    <Button variant="secondary">{language} Chapter Coming Soon!</Button>
                 </div>
             )
         }
@@ -71,7 +72,10 @@ export const MangaPage = () => {
                             let chapterTitleEnglish = chapter.chapterTitleEnglish;
                             let chapterSummary = chapter.chapterSummary;
                             let numberOfPages = chapter.numberOfPages;
-                            let isAvailable = chapter.available;
+                            let isAvailableJapanese = chapter.availableJapanese;
+                            let isAvailableEnglish = chapter.availableEnglish;
+                            let languageJapanese = "Japanese";
+                            let languageEnglish = "English"
 
 
                             return (
@@ -81,7 +85,9 @@ export const MangaPage = () => {
                                         <p>Summary: {chapterSummary}</p>
                                     </div>
 
-                                    {renderMangaReader(isAvailable, chapterNumber, numberOfPages)}
+                                    {renderMangaReader(isAvailableJapanese, languageJapanese, chapterNumber, numberOfPages)}
+                                    <br />
+                                    {renderMangaReader(isAvailableEnglish, languageEnglish, chapterNumber, numberOfPages)}
 
                                     <hr />
                                 </div>

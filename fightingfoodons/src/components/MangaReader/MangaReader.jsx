@@ -11,7 +11,7 @@ export const MangaReader = (props) => {
     for (let i = 1; i <= numberOfPages; i++) {
         let chapterNumber = props.chapterNumber;
         let pageNumber = i;
-        let imagePath = "db/manga/chapters/ch" + chapterNumber + "/ch" + chapterNumber + "-p" + pageNumber + ".jpg";
+        let imagePath = "db/manga/chapters/" + props.language + "/ch" + chapterNumber + "/ch" + chapterNumber + "-p" + pageNumber + ".jpg";
         mangaChapterPages.push(
             <div key={pageNumber}>
             <img src={imagePath} className="mangaPageImage"/> <br />

@@ -1,6 +1,7 @@
 import React from 'react';
 import './HomePage.css';
 import Container from 'react-bootstrap/Container';
+import Zen from "../../assets/images/zen.png";
 
 export const HomePage = () => {
     return (
@@ -9,6 +10,9 @@ export const HomePage = () => {
             <Container>
                 <div className="main">
                     <div><h1 className='text-center'>Welcome, chefs!</h1></div>
+                    <Container className="text-center">
+                        <img src={Zen} className="zenImg text-center" alt="Zen" />
+                    </Container>
                     <hr />
                     <div>Fighting Foodons is a fan-made site dedicated to the late-90's/early-00's manga and anime Kakuto Ryori Densetsu Bistro Recipe - known in English as Fighting Foodons.
                     </div>

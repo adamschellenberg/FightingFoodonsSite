@@ -6,7 +6,8 @@
     "chapterTitleEnglish": "Welcome to the World of Fighting Foodons!!",
     "numberOfPages": 5,
     "chapterSummary": "coming soon",
-    "available": true
+    "availableJapanese": true,
+    "availableEnglish": false
   },
   {
     "id": 1,
@@ -15,7 +16,8 @@
     "chapterTitleEnglish": "Come On, Foodon!! Aim to Be the Strongest Chef",
     "numberOfPages": 31,
     "chapterSummary": "coming soon",
-    "available": false
+    "availableJapanese": false,
+    "availableEnglish": false
   },
   {
     "id": 2,
@@ -24,7 +26,8 @@
     "chapterTitleEnglish": "Enemy or Ally!? The New Chef",
     "numberOfPages": 30,
     "chapterSummary": "coming soon",
-    "available": false
+    "availableJapanese": false,
+    "availableEnglish": false
   },
   {
     "id": 3,
@@ -33,7 +36,8 @@
     "chapterTitleEnglish": "Win With Spirit! Battle Tournament",
     "numberOfPages": 32,
     "chapterSummary": "coming soon",
-    "available": false
+    "availableJapanese": false,
+    "availableEnglish": false
   },
   {
     "id": 4,
@@ -42,7 +46,8 @@
     "chapterTitleEnglish": "First Defeat! That Whirl Guy Is Amazing!?",
     "numberOfPages": 32,
     "chapterSummary": "coming soon",
-    "available": false
+    "availableJapanese": false,
+    "availableEnglish": false
   },
   {
     "id": 5,
@@ -51,7 +56,8 @@
     "chapterTitleEnglish": "Awaken Your Hidden Power! Ultimate Three Flavors Attack!!",
     "numberOfPages": 32,
     "chapterSummary": "coming soon",
-    "available": false
+    "availableJapanese": false,
+    "availableEnglish": false
   },
   {
     "id": 6,
@@ -60,7 +66,8 @@
     "chapterTitleEnglish": "Surprise Attack!! Gourmet Elite Four",
     "numberOfPages": 35,
     "chapterSummary": "coming soon",
-    "available": false
+    "availableJapanese": false,
+    "availableEnglish": false
   },
   {
     "id": 7,
@@ -69,7 +76,8 @@
     "chapterTitleEnglish": "A New Challenge For True Chefs",
     "numberOfPages": 34,
     "chapterSummary": "coming soon",
-    "available": false
+    "availableJapanese": false,
+    "availableEnglish": false
   },
   {
     "id": 8,
@@ -78,7 +86,8 @@
     "chapterTitleEnglish": "Be Strong, Kind, and Tough! Power Race Battle!",
     "numberOfPages": 35,
     "chapterSummary": "coming soon",
-    "available": false
+    "availableJapanese": false,
+    "availableEnglish": false
   },
   {
     "id": 9,
@@ -87,7 +96,8 @@
     "chapterTitleEnglish": "Am I My Worst Enemy? Zen's Biggest Crisis!!",
     "numberOfPages": 37,
     "chapterSummary": "coming soon",
-    "available": false
+    "availableJapanese": false,
+    "availableEnglish": false
   },
   {
     "id": 10,
@@ -96,7 +106,8 @@
     "chapterTitleEnglish": "The Coming of a Savior? The Ultimate Ramen Battle!!",
     "numberOfPages": 36,
     "chapterSummary": "coming soon",
-    "available": false
+    "availableJapanese": false,
+    "availableEnglish": false
   },
   {
     "id": 11,
@@ -105,7 +116,8 @@
     "chapterTitleEnglish": "Zen's Miraculous Ramen With Sincerity and Dedication",
     "numberOfPages": 36,
     "chapterSummary": "coming soon",
-    "available": false
+    "availableJapanese": false,
+    "availableEnglish": false
   },
   {
     "id": 12,
@@ -114,7 +126,8 @@
     "chapterTitleEnglish": "A Child's Dream! Pi-tan's Great Success",
     "numberOfPages": 32,
     "chapterSummary": "coming soon",
-    "available": false
+    "availableJapanese": false,
+    "availableEnglish": false
   },
   {
     "id": 13,
@@ -123,6 +136,7 @@
     "chapterTitleEnglish": "Decisive Battle of the Gourmet Elite Four!? Zen's New Journey",
     "numberOfPages": 29,
     "chapterSummary": "coming soon",
-    "available": false
+    "availableJapanese": false,
+    "availableEnglish": false
   }
 ]
