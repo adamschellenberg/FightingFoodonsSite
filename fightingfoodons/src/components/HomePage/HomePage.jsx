@@ -27,7 +27,7 @@ export const HomePage = () => {
                         And please, if you like the site and want to see more content being added, consider donating at <a href="https://ko-fi.com/biscuitpages" target="_blank" rel="noreferrer">Ko-Fi</a>. 
                         All donations will be strictly used to pay for hosting and more Fighting Foodons material for preservation. 
                         <br />
-                        <span className="smallText">(strategy guide scans/translations, high-res images of toys, promotional material, and high-quality rips of the official Fighting Foodons soundtrack, anyone??)</span>
+                        <span className="smallText">(strategy guide scans/translations, high-res images of toys, promotional material, and high-quality archives of the official Fighting Foodons soundtrack, anyone??)</span>
                     </div>
                 </div>
             </Container>
